@@ -1,0 +1,10 @@
+
+server:
+  port: 8083
+  context-path: /md
+spring:
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 500Mb
+      max-request-size: 500Mb

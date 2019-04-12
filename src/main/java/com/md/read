@@ -1,0 +1,17 @@
+调用连接地址
+http://localhost:8083/md/pdfjs/web/viewer.html?file=pdf/cc.pdf&page=18
+
+
+
+html父页面获取iframe子页面中的属性
+document.getElementById('iframe的id').contentWindow.属性/方法;
+
+
+
+html父页面获取当前的页码
+<script type="text/javascript">
+        function getPage() {
+            var  xxx=document.getElementById("pageNumber").value;
+            alert(xxx);
+        }
+	</script>
